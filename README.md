@@ -23,5 +23,5 @@ Here are the complaints of the imaginary client below:
 
 1. A revised Unity project addressing the mentioned issues including critical issues, and optionally Bonus ones.
 2. A functional APK build for Android devices or an iOS build suitable for testing.
-3. The project code hosted on a private repository on GitHub or GitLab, with the corresponding person invited for review.
+3. The project code hosted on a private/public repository on GitHub or GitLab, with the corresponding person invited for review or a public link of repo.
 4. Documentation outlining the changes made, troubleshooting steps taken, and any additional improvements implemented.
