@@ -1,21 +1,27 @@
-# SundayOptimizationTest
+# Sunday Unity Integration Developer Test
 
-## Task
+## Introduction
 
-There are a few issues with this project. Please fix them and build a working APK for the client. If you do not have an Android device, a build working on iOS or even on an Android emulator is enough. The game is a placeholder and the end result should stay the same, please do not try to make new levels, better models etc.. Other than this, you are free to change everything.
+As a Unity Integration Developer, your task is to address the issues present in the project provided below and to build a functional APK for the imaginary client. The objective is to maintain the existing game without adding new levels or models, focusing solely on resolving the mentioned issues and implementing requested enhancements.
 
-Please fix the error and check the code, physics, materials and build settings to see if there are any improvements you can make. There is no specific output we require, please do whatever you can to improve and don't overthink it. It would be ideal if you could create a private repository on GitHub or GitLab and invite the corresponding person to review it.
+Here are the complaints of the imaginary client below:
 
-I have written the complaints of the imaginary client below.
+## Issues 
+### Critical Issues
 
-## My Game Doesn't Work Properly
+- **MyEventSystem Class:** MyEventSystem class is unable to find GameAnalytics required to send level start and finish events. Although the GameAnalytics unitypackage containing the script for handling events has been imported, it is not functioning as expected.
+- **Performance Issues:** Despite the game having minimal objects and scripts, performance issues persist on mobile devices.
+- **Frame Rate Dependency:** Controls behave inconsistently depending on the frames per second (FPS) the game is running at.
+- **Git Repository:** There are issues with the git repository as numerous irrelevant files are included in pushes.
 
- - MyEventSystem class can't find GameAnalytics required to send my level start and finish events. I imported the unitypackage and found a script that handles the events but it's not working.
- - My game has performance issues on mobile devices despite it only having a few objects and scripts.
- - My controls work differently depending on the frames per second I run it at.
- - There is something wrong with my git repository, a lot of irrelevant files get added to my pushes.
-
- ## Bonus Issues
+ ### Bonus Issues
  
- - I have a hard time managing my levels and it's extremely hard for me to add new levels.
- - There's something wrong with my lighting. It looks different when I build it and when I edit it in the editor.
+- **Firebase Analytics Integration:** Firebase Analytics integration is missing. I need to send the same events (start, fail, and finish) tracked by Game Analytics to Firebase too. Additional docs: https://firebase.google.com/docs/analytics/unity/start
+- **Level Management:** Adding and managing new levels within the project is challenging.
+
+## What Should be Delivered
+
+1. A revised Unity project addressing the mentioned issues including critical issues, and optionally Bonus ones.
+2. A functional APK build for Android devices or an iOS build suitable for testing.
+3. The project code hosted on a private repository on GitHub or GitLab, with the corresponding person invited for review.
+4. Documentation outlining the changes made, troubleshooting steps taken, and any additional improvements implemented.
