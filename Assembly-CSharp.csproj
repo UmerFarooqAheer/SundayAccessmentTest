@@ -45,103 +45,17 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_Debug.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/TopOn/GATopOnIntegration.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_UWPWrapper.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Enums.cs" />
      <Compile Include="Assets/Scripts/BallRoller.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_iOSWrapper.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/GameAnalyticsILRD.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/State/GAState.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_AndroidWrapper.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/GameAnalytics.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_Design.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ATT/GameAnalyticsATTClient.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_Resource.cs" />
      <Compile Include="Assets/Scripts/LoadImmediately.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_Business.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_Progression.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/SendBusinessEvent.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/Mopub/GAMopubIntegration.cs" />
      <Compile Include="Assets/Scripts/Enemy.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_TizenWrapper.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_tvOSWrapper.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_WebGLWrapper.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/GetABTestingId.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/SendResourceEvent.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GAValidator.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/IGameAnalyticsATTListener.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_Wrapper.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_SpecialEvents.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/IsRemoteConfigsReady.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_Ads.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/GetABTestingVariantId.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Utilities/GA_MiniJson.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/SendErrorEvent.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/SetCustomDimension.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/Aequus/GAAequusIntegration.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Setup/Settings.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ATT/GameAnalyticsATTObjCBridge.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/SendProgressionEvent.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_MonoWrapper.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/AdMob/GAAdMobIntegration.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_Error.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/GetRemoteConfigsValueAsString.cs" />
      <Compile Include="Assets/Scripts/FinishTarget.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/SendAdEvent.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/IronSource/GAIronSourceIntegration.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/Fyber/GAFyberIntegration.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/SendDesignEvent.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/HyperBid/GAHyperBidIntegration.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/Events/GA_Setup.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Playmaker/GAInitialize.cs" />
-     <Compile Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/Max/GAMaxIntegration.cs" />
      <Folder Include="Assets" />
-     <None Include="Assets/GameAnalytics/Readme.txt" />
-     <Folder Include="Assets/GameAnalytics/Plugins/tvOS" />
      <Folder Include="Assets/Scenes" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Linux" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/TopOn" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/HyperBid" />
-     <Folder Include="Assets/GameAnalytics/Plugins/WSA/x64" />
-     <Folder Include="Assets/GameAnalytics/Plugins/WSA" />
-     <Folder Include="Assets/GameAnalytics/Gizmos/GameAnalytics/Images" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Prefabs" />
-     <Folder Include="Assets/GameAnalytics/Plugins/WSA/x86" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/Utilities" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/Mopub" />
      <Folder Include="Assets/Scripts" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/AdMob" />
-     <Folder Include="Assets/GameAnalytics/Plugins/WSA/ARM" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/Setup" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/IronSource" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Tizen" />
      <Folder Include="Assets/Materials" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Playmaker/Examples" />
-     <Folder Include="Assets/GameAnalytics/Gizmos" />
-     <Folder Include="Assets/GameAnalytics/Plugins" />
-     <Folder Include="Assets/GameAnalytics/Gizmos/GameAnalytics" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Windows/x86" />
-     <Folder Include="Assets/GameAnalytics" />
      <Folder Include="Assets/Resources" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ATT" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/Aequus" />
-     <Folder Include="Assets/GameAnalytics/Plugins/WebGL" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Windows/x64" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Android" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Windows" />
-     <Folder Include="Assets/GameAnalytics/Plugins/iOS" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/Wrapper" />
      <Folder Include="Assets/Resources/GameAnalytics" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/Events" />
-     <Folder Include="Assets/GameAnalytics/Plugins/SamsungTV" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/Max" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/State" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Scripts/ILRD/Fyber" />
      <Folder Include="Assets/Textures" />
-     <Folder Include="Assets/GameAnalytics/Plugins/Playmaker" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -801,6 +715,14 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="GameAnalytics-Editor.csproj">
+      <Project>{17ad1e99-4d11-e4cf-7222-81899a8d97da}</Project>
+      <Name>GameAnalytics-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameAnalytics-Assembly.csproj">
+      <Project>{7f9c71f1-7609-40b1-2442-a7cca78985f6}</Project>
+      <Name>GameAnalytics-Assembly</Name>
+    </ProjectReference>
     <ProjectReference Include="MyEventSystem.csproj">
       <Project>{d0c5e9df-a6a6-e653-b821-e397dcea0a82}</Project>
       <Name>MyEventSystem</Name>

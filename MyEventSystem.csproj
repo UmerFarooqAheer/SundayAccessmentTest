@@ -692,6 +692,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="GameAnalytics-Assembly.csproj">
+      <Project>{7f9c71f1-7609-40b1-2442-a7cca78985f6}</Project>
+      <Name>GameAnalytics-Assembly</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
