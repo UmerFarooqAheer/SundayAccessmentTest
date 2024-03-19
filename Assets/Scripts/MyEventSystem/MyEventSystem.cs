@@ -46,19 +46,25 @@ namespace MyEventSystem
         public void StartLevel(int level)
         {
             GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, level.ToString());
+            /* Uncomment if registered/logged In with Firebase account, otherwise gives an error.
             Firebase.Analytics.FirebaseAnalytics.LogEvent(GAProgressionStatus.Start.ToString());
+            */
         }
 
         public void FailLevel(int level)
         {
             GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, level.ToString());
+            /* Uncomment if registered/logged In with Firebase account, otherwise gives an error.
             Firebase.Analytics.FirebaseAnalytics.LogEvent(GAProgressionStatus.Fail.ToString());
+            */
         }
 
         public void CompleteLevel(int level)
         {
             GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, level.ToString());
+            /* Uncomment if registered/logged In with Firebase account, otherwise gives an error.
             Firebase.Analytics.FirebaseAnalytics.LogEvent(GAProgressionStatus.Complete.ToString());
+            */
         }
     }
 }
