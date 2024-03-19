@@ -53,14 +53,33 @@
      <Compile Include="Assets/Scripts/Gameplay/Enemy.cs" />
      <Compile Include="Assets/Scripts/Gameplay/FinishTarget.cs" />
      <Folder Include="Assets" />
+     <Folder Include="Assets/Firebase/m2repository/com/google/firebase" />
+     <Folder Include="Assets/Editor Default Resources" />
      <Folder Include="Assets/Scenes" />
+     <Folder Include="Assets/Data/Levels" />
+     <Folder Include="Assets/Data" />
+     <Folder Include="Assets/ExternalDependencyManager" />
+     <Folder Include="Assets/Firebase/m2repository/com/google" />
+     <Folder Include="Assets/Prefabs/Levels" />
      <Folder Include="Assets/Scripts" />
+     <Folder Include="Assets/Editor Default Resources/Firebase" />
+     <Folder Include="Assets/Firebase/m2repository/com" />
+     <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/maven-metadata.xml" />
      <Folder Include="Assets/Scripts/ScriptableObjects" />
      <Folder Include="Assets/Materials" />
      <Folder Include="Assets/Scripts/Managers" />
      <Folder Include="Assets/Resources" />
+     <Folder Include="Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity" />
+     <None Include="Assets/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/maven-metadata.xml" />
+     <Folder Include="Assets/Firebase" />
      <Folder Include="Assets/Resources/GameAnalytics" />
+     <Folder Include="Assets/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/11.8.0" />
+     <Folder Include="Assets/Firebase/Plugins" />
+     <Folder Include="Assets/Prefabs" />
+     <Folder Include="Assets/Firebase/m2repository" />
      <Folder Include="Assets/Scripts/Gameplay" />
+     <Folder Include="Assets/Firebase/m2repository/com/google/firebase/firebase-analytics-unity" />
+     <Folder Include="Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/11.8.0" />
      <Folder Include="Assets/Textures" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -301,6 +320,21 @@
      </Reference>
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.App">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Analytics">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.TaskExtension">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+     </Reference>
+     <Reference Include="Google.MiniJson">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Platform">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
