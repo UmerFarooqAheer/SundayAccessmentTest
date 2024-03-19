@@ -52,14 +52,12 @@ namespace MyEventSystem
         public void FailLevel(int level)
         {
             GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, level.ToString());
-           
             Firebase.Analytics.FirebaseAnalytics.LogEvent(GAProgressionStatus.Fail.ToString());
         }
 
         public void CompleteLevel(int level)
         {
             GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, level.ToString());
-            
             Firebase.Analytics.FirebaseAnalytics.LogEvent(GAProgressionStatus.Complete.ToString());
         }
     }

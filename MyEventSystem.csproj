@@ -312,11 +312,23 @@
      <Reference Include="Google.VersionHandler">
      <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
      </Reference>
+     <Reference Include="Google.JarResolver">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/ExternalDependencyManager/Editor/1.2.179/Google.JarResolver.dll</HintPath>
+     </Reference>
+     <Reference Include="Google.IOSResolver">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll</HintPath>
+     </Reference>
      <Reference Include="Google.VersionHandlerImpl">
      <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/ExternalDependencyManager/Editor/1.2.179/Google.VersionHandlerImpl.dll</HintPath>
      </Reference>
+     <Reference Include="Google.PackageManagerResolver">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/ExternalDependencyManager/Editor/1.2.179/Google.PackageManagerResolver.dll</HintPath>
+     </Reference>
      <Reference Include="Firebase.App">
      <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+     </Reference>
+     <Reference Include="Firebase.Editor">
+     <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Analytics">
      <HintPath>/Users/umerfarooq/Downloads/Fiyonaaal Bsh/SundayAccessmentTest/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
